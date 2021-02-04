@@ -4,7 +4,7 @@
 
 The code in IRS_Form_Scraper.py and PDF_downlader.py will:
 
-- Convert form data on search results at [the IRS form site](https://apps.irs.gov/app/picklist/list/priorFormPublication.html?value=Form+W-2&criteria=formNumber&submitSearch=Find) to JSON
+- Convert form data on search results at [the IRS form site](https://apps.irs.gov/app/picklist/list/priorFormPublication.html) to JSON
 - Search and download PDFs in the given range of years from page in a
 sub-directory
 
