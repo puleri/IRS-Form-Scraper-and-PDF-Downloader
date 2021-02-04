@@ -1,9 +1,10 @@
 # Import packages
 from datetime import date
-import requests
 from pathlib import Path
 import os
 import json
+# Packages not part of Python
+import requests
 from bs4 import BeautifulSoup
 
 # datetime
