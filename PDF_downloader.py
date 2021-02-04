@@ -109,5 +109,7 @@ for el in posts:
         formList.append(I(form_number, form_title, min_year, max_year, pdf))
 # print(formList)
 
+# To change the search parameters, simply replace the years with the
+# minimum and maximum you would like to query
 instances = I.get('2002', '2012')
 print(instances)

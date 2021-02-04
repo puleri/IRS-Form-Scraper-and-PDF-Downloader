@@ -8,6 +8,8 @@ from bs4 import BeautifulSoup
 todays_date = date.today()
 
 # Use requests package to make GET req. to webpage to scrape
+# Feel free to replace the url after using the search bar in the webpage
+# if you are looking to grab more specific data.
 response = requests.get('https://apps.irs.gov/app/picklist/list/priorFormPublication.html')
 # response = requests.get('https://apps.irs.gov/app/picklist/list/priorFormPublication.html?value=Form+W-2&criteria=formNumber&submitSearch=Find')
 
