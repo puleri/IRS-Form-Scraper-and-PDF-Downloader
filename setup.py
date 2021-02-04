@@ -11,13 +11,13 @@ from setuptools import setup, find_packages
 #     license = f.read()
 
 setup(
-    name='python-web-scrape',
+    name='IRS-Form-Scraper-and-PDF-Downloader',
     version='0.1.0',
     description='Coding challenge for Pinwheel',
     long_description='<readme>',
     author='<author>',
     author_email='<email>',
-    url='https://mail.google.com/mail/u/1/#inbox/FMfcgxwLsJtCJwJnGXdmBsbvCFzjxzsz',
+    url='https://github.com/puleri/IRS-Form-Scraper-and-PDF-Downloader',
     license='<license>',
     packages=find_packages(exclude=('tests', 'docs'))
 )
